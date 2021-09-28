@@ -1,0 +1,29 @@
+@import '~antd/dist/antd.dark.css';
+
+.body {
+  background:#181820;
+  padding: 2rem 0;
+}
+  
+.todoList{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 520px;
+  min-height: 600px;
+  background-color: #21212B;
+  text-align: center;
+  margin:  auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  padding: 2rem 3rem;
+}
+
+.todo-input{
+  margin: 0 .5rem;
+}
+
+.taskRow{
+  display: flex;
+  justify-content: space-between;
+}
